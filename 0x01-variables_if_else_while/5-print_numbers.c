@@ -1,19 +1,19 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
- *
- * Return: Always 0 (Success)
- */
+	* main - Entry point
+	* Description: 'Basic Uses of If else statements'
+	* Return: Always 0 (Success)
+*/
+
 int main(void)
 {
-	int i;
+	int counter;
 
-	for (i = 0; i < 10; i++)
+	for (counter = 0; counter < 10; counter++)
 	{
-		 printf("%d", i);
+		printf("%d", counter);
 	}
 	printf("\n");
-
 	return (0);
 }

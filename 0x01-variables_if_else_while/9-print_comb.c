@@ -1,25 +1,26 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
+
 /**
- * main - Entry point
- *
- * Return: Always 0 (Success)
- */
+* main - Entry point
+*
+* Description: print 0-9 and separate with a comma
+* Return: Always 0 (Sucesss)
+*/
+
 int main(void)
 {
-	int d;
+	int counter;
 
-	for (d = '0'; d <= '9'; d++)
+	for (counter = 0; counter < 10; counter++)
 	{
-		putchar(d);
-		if (d != '9')
+		putchar(counter + 48);
+		if (counter != 9)
 		{
 			putchar(',');
 			putchar(' ');
 		}
+
 	}
 	putchar('\n');
-
 	return (0);
 }

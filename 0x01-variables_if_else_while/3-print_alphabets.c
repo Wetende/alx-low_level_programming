@@ -1,25 +1,27 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
 
 /**
- * main - Entry point
- *
- * Return: Always 0 (Success)
- */
+	* main - Entry point
+	* Description: Print Alphabets in both lower and upper cases'
+	* Return: Always 0 (Success)
+*/
+
 int main(void)
 {
-  char low;
+	char ch = 'a';
+	char CH = 'A';
 
-  for (low = 'a'; low <= 'z'; low++) {
-    putchar(low);
-  }
+	while (ch <= 'z')
+	{
+		putchar(ch);
+		ch++;
+	}
 
-  for (low = 'A'; low <= 'Z'; low++) {
-    putchar(low);
-  }
-
-  putchar('\n');
-
-  return (0);
+	while (CH <= 'Z')
+	{
+		putchar(CH);
+		CH++;
+	}
+	putchar('\n');
+	return (0);
 }
