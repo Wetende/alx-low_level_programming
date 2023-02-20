@@ -6,23 +6,20 @@
  *
  * Return: Always 0 (Success)
  */
+
 int main(void)
 {
-	int d;
+	int i, j;
 
-	for (d = 0; d < 90; d++)
+	for (i = 0; i <= 9; i++)
 	{
-		for ()
-		{
-			putchar((d / 10) + '0');
-			putchar((d % 10) + '0');
-		}
-		if (d != 89)
-		{
-			putchar(',');
-			putchar(' ');
-		}
+	for (j = i + 1; j <= 9; j++)
+	{
+	putchar('0' + i);
+	putchar('0' + j);
+	putchar(' ');
 	}
-	putchar('\n');
+	}
+
 	return (0);
 }
