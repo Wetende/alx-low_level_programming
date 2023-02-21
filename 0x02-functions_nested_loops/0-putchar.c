@@ -1,12 +1,20 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
-/* more headers goes there */
 
-/* betty style doc for function main goes there */
-
+#include "main.h"
+/**
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
-	printf("_putchar\n");
+	char *pointer = "_putchar";
+
+	while (*pointer)
+	{
+		_putchar(*pointer);
+		pointer++;
+	}
+	_putchar('\n');
+
 	return (0);
 }
