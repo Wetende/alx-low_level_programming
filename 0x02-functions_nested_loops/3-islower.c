@@ -2,9 +2,10 @@
 
 /**
  * _islower - a function that checks for lowercase character
- * @param c The character to be checked.
- * @return Non-zero if c is lowercase, 0 otherwise.
+ * @c: single letter input
+ * Return: 1 if int c is lowercase, 0 if otherwise
  */
+ 
 
 int _islower(int c)
 {
