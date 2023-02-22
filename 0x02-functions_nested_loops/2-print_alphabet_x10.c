@@ -2,7 +2,7 @@
 
 /**
  * main - check the code.
- *
+ * A program to print alphabets in lowercase ten times
  * Return: Always 0.
  */
 
