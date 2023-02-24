@@ -8,11 +8,11 @@
  */
 int main(void)
 {
-    int i = 0;
+	int i = 0;
 
-    printf("Testing positive_or_negative() function with input 0:\n");
-    positive_or_negative(i);
+	printf("Testing positive_or_negative() function with input 0:\n");
+	positive_or_negative(i);
 
-    return (0);
+	return (0);
 }
 
