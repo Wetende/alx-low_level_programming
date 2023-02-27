@@ -12,7 +12,13 @@ char *_strcpy(char *dest, char *src)
 
 	for (; src[i] != '\0'; i++)
 	{
+		if (i >= sizeof(dest) - 1)
+		{
+			/* Error: dest buffer too small */
+		return (NULL);
+		}
 		dest[i] = src[i];
 	}
+	dest[i] = '\0';
 	return (dest);
 }
