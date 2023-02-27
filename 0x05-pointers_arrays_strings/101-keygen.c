@@ -16,8 +16,9 @@ int main(void)
     const size_t num_valid_chars = sizeof(valid_chars) - 1; /* The number of valid characters in the set */
     
     srand(time(NULL)); /* Seed the random number generator with the current time */
-    
-    for (size_t i = 0; i < PASSWORD_LENGTH; i++)
+
+    size_t i;    
+    for (i = 0; i < PASSWORD_LENGTH; i++)
     {
         password[i] = valid_chars[rand() % num_valid_chars]; /* Generate a random password by selecting characters from the valid set */
     }
