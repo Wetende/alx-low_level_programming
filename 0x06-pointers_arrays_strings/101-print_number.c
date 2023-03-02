@@ -18,7 +18,8 @@ void print_number(int n)
 	while (n / i > 9)
 	i *= 10;
 
-	while (i > 0) {
+	while (i > 0)
+	{
 	_putchar('0' + n / i);
 	n %= i;
 	i /= 10;
