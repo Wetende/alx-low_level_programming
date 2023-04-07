@@ -1,9 +1,9 @@
-#include "holberton.h"
+#include "main.h"
 /**
-  * get_bit - gets value of int at an index
+  * get_bit - gets value of int at a given index
   * @n: input long integer
-  * @index: index to start at
-  * Return: value of the bit at the index
+  * @index: index to begin at
+  * Return: bit value at the index
   */
 int get_bit(unsigned long int n, unsigned int index)
 {
