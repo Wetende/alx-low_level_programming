@@ -7,5 +7,12 @@
   */
 int get_bit(unsigned long int n, unsigned int index)
 {
-	return ((index > (8 * sizeof(n) - 1)) ? -1 : (int)(n >> index) & 1);
+	unsigned int b;
+
+	b = (n >> index) & 1;
+
+	if ((b == 1) || (b == 0))
+		return (b);
+	else
+		return (-1);
 }
