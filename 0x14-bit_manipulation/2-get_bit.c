@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 /**
   * get_bit - gets value of int at an index
   * @n: input long integer
